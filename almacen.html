@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="almacen.css">
+    <title>Gestión Almacén</title>
+</head>
+<body>
+    <div>    
+        <input id="mensaje" class="inputM">
+
+        <h1>Gestión Almacén</h1>
+
+        <p><input value="entrada" name="operacion" type="radio" checked>Entrada producto</p>
+        <p><input value="salida" name="operacion" type="radio">Salida producto</p>
+        <p>Producto: <input id="numero" class="inputP" type="number"> Unidades.</p>
+
+        <button onclick="actualizar()">Actualiza Stock</button>
+    </div>
+    <script src="almacen.js"></script>
+</body>
+</html>

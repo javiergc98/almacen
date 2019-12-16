@@ -1,2 +1,0 @@
-# almacen
-proyecto almacen
